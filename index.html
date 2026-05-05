@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>balashiha</title>
-    <link rel="icon" type="image/svg+xml" href="/Balashiha/vite.svg" />
-    <script src="https://api-maps.yandex.ru/v3/?apikey=bc775698-37d5-4d2b-94fc-c4cf1052fb36&lang=ru_RU"></script>
   </head>
   <body>
     <!--код шапки-->
@@ -219,7 +217,6 @@
       * {
         box-sizing: border-box !important;
         margin: 0;
-        padding: 0;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
@@ -1206,88 +1203,143 @@
         </div>
       </div>
     </div>
-    <div class="O_Offers" style="width: 100%">
-      <h2 class="A_SectionTitle U_Floating" style="width: 100%">Инвестиции в лайт индастриал</h2>
+
+
+<!-- инвестиции -->
+<section>
+  <div
+    class="border-b border-[var(--stroke-light)] max-[1001px]:pt-[40px] max-[1001px]:pb-[24px] min-[1001px]:pt-[80px] min-[1001px]:pb-[40px]"
+    style="width: 100%">
+    <h2
+      class="A_SectionTitle pl-[calc((100vw-1440px)/2+40px)] max-[1440px]:pl-[calc(50vw-472px)] max-[1001px]:px-[24px]"
+      style="width: 100%">
+      Инвестиции в лайт индастриал
+    </h2>
+  </div>
+  <div class="flex w-full h-fit max-[1001px]:flex-col"
+    style="border-top: 0; border-bottom: 1px solid rgba(24, 24, 24, 0.08235)">
+    <div
+      class="w-1/2 max-[1001px]:w-full max-[1001px]:p-[24px] max-[1440px]:pl-[calc(50vw-472px)] pl-[calc((100vw-1440px)/2+40px)] py-[80px] min-[1001px]:sticky max-[1001px]:top-[110px] h-fit gap-[80px] max-[1001px]:gap-[48px] flex flex-col max-[1001px]:border-b border-[var(--stroke-light)]">
+      <h2
+        class="uppercase leading-[100%] font-medium min-[1440px]:text-[36px] min-[1001px]:text-[33px] max-[1001px]:text-[24px]">
+        Зачем инвестировать
+        <br />
+        в лайт индастриал
+      </h2>
+      <a class="A_Button3 U_Secondary U_Scroll" href="#LeadForm"
+        onclick="_txq.push(['track', 'request_payment_investor'])">
+        Запросить расчет
+        <img class="Q_Icon U_Invert"
+          src="https://optim.tildacdn.com/tild3139-6330-4438-b430-333664623766/-/resize/290x/-/format/webp/BtnIcon.png"
+          alt="" />
+      </a>
     </div>
-    <div class="W_Section" style="border-bottom: 1px solid rgba(24, 24, 24, 0.08235)">
-      <div class="W_SectionColumn U_Title">
-        <h2 class="A_SectionTitle2">
-          Зачем инвестировать
-          <br />
-          в лайт&nbsp;индастриал
-        </h2>
+    <div class="w-1/2 max-[1001px]:w-full flex flex-col border-l border-[var(--stroke-light)]" data-accordion="invest">
+      <div
+        class="bg-transparent data-[open=true]:bg-[var(--lightGrey)] data-[open=true]:gap-[100px] data-[open=true]:max-[1001px]:gap-[24px] cursor-pointer pl-[40px] max-[1440px]:pr-[calc(50vw-472px)] pr-[calc((100vw-1440px)/2+40px)] max-[1001px]:pr-[24px] max-[1001px]:pl-[24px] max-[1001px]:py-[24px] py-[80px] border-b border-[var(--stroke-light)] flex flex-col gap-0"
+        data-accordion-item data-accordion-trigger>
+        <div class="flex justify-between min-[1001px]:items-end">
+          <div class="flex flex-col w-full gap-[10px]">
+            <p
+              class="max-[1440px]:text-[40px] text-[90px] leading-[100%] max-[1001px]:text-[24px] max-[1001px]:font-medium">
+              7 лет</p>
+            <p class="min-[1001px]:hidden leading-[100%] text-[14px]">Окупаемость инвестиций</p>
+          </div>
+          <div class="flex gap-[32px]">
+            <p class="max-[1001px]:hidden leading-[100%] text-right min-[1440px]:pb-[12px] text-[14px]">
+              Окупаемость
+              <br />
+              инвестиций
+            </p>
+            <div class="w-[22px] h-[22px] relative">
+              <svg class="center" data-accordion-icon xmlns="http://www.w3.org/2000/svg" width="12" height="5"
+                viewBox="0 0 12 5" fill="none">
+                <path d="M12 1.11059L6.44641 5H5.55359L0 1.11059L0.892812 0L5.9995 3.57668L11.1072 0L12 1.11059Z"
+                  fill="#181818" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <p data-accordion-content class="max-[1001px]:text-[14px]">
+          Лайт индастриал дает возможность быстрого возврата инвестиций. Начать арендный бизнес возможно уже через 12-18
+          месяцев после старта строительства.
+          Дополнительных инвестиций не требуется — помещения готовы к заезду арендатора. Окупаемость инвестиций — менее
+          7 лет.
+        </p>
       </div>
-      <div class="W_SectionColumn">
-        <div class="M_SectionColumnRow U_TextBlock">
-          <div class="W_StatsRow">
-            <p class="A_TextMedium U_Capitalize">Организация арендного бизнеса с&nbsp;доходностью до&nbsp;15%&nbsp;годовых</p>
+      <div
+        class="bg-transparent data-[open=true]:bg-[var(--lightGrey)] data-[open=true]:gap-[100px] data-[open=true]:max-[1001px]:gap-[24px] cursor-pointer pl-[40px] max-[1440px]:pr-[calc(50vw-472px)] pr-[calc((100vw-1440px)/2+40px)] max-[1001px]:pr-[24px] max-[1001px]:pl-[24px] max-[1001px]:py-[24px] py-[80px] border-b border-[var(--stroke-light)] flex flex-col gap-0"
+        data-accordion-item data-accordion-trigger>
+        <div class="flex justify-between min-[1001px]:items-end">
+          <div class="flex flex-col w-full gap-[10px]">
+            <p
+              class="max-[1440px]:text-[40px] text-[90px] leading-[100%] max-[1001px]:text-[24px] max-[1001px]:font-medium">
+              до 15%</p>
+            <p class="min-[1001px]:hidden leading-[100%] text-[14px]">Доходность от арендного бизнеса</p>
           </div>
-          <p class="A_BodyText U_MobileText">
-            Лайт индастриал&nbsp;дает возможность быстрого возврата инвестиций. Начать арендный бизнес возможно уже через 12&nbsp;— 18&nbsp;месяцев после старта
-            строительства. Дополнительных инвестиций не&nbsp;требуется — помещения готовы к&nbsp;заезду арендатора. Окупаемость инвестиций&nbsp;— менее
-            7&nbsp;лет
-          </p>
-        </div>
-        <div class="M_SectionColumnRow U_TextBlock">
-          <div class="W_StatsRow">
-            <p class="A_TextMedium U_Capitalize">Высокая востребованность помещений</p>
+          <div class="flex gap-[32px]">
+            <p class="max-[1001px]:hidden leading-[100%] text-right min-[1440px]:pb-[12px] text-[14px]">
+              Доходность
+              <br />
+              от арендного бизнеса
+            </p>
+            <div class="w-[22px] h-[22px] relative">
+              <svg class="center" data-accordion-icon xmlns="http://www.w3.org/2000/svg" width="12" height="5"
+                viewBox="0 0 12 5" fill="none">
+                <path d="M12 1.11059L6.44641 5H5.55359L0 1.11059L0.892812 0L5.9995 3.57668L11.1072 0L12 1.11059Z"
+                  fill="#181818" />
+              </svg>
+            </div>
           </div>
-          <p class="A_BodyText U_MobileText">
-            Спрос на аренду помещений лайт индастриал в несколько раз превышает доступное предложение на рынке. Для наших клиентов доступна услуга поиска
-            арендатора и полного аутсорсинга управления вашим активом
-          </p>
         </div>
-        <div class="M_SectionColumnRow U_TextBlock U_LastItem">
-          <div class="W_StatsRow">
-            <p class="A_TextMedium U_Capitalize">Динамичный рост стоимости</p>
+        <p data-accordion-content class="max-[1001px]:text-[14px]">
+          Доход формируется от аренды помещений, востребованных у производственных и логистических компаний. Арендная
+          доходность лайт индастриал выше, чем
+          в сегменте офисов и торговой недвижимости. Ежегодная индексация увеличивает денежный поток на всём горизонте
+          владения. Для наших клиентов доступна
+          услуга поиска арендатора и полного аутсорсинга управления вашим активом.
+        </p>
+      </div>
+      <div
+        class="bg-transparent data-[open=true]:bg-[var(--lightGrey)] data-[open=true]:gap-[100px] data-[open=true]:max-[1001px]:gap-[24px] cursor-pointer pl-[40px] max-[1440px]:pr-[calc(50vw-472px)] pr-[calc((100vw-1440px)/2+40px)] max-[1001px]:pr-[24px] max-[1001px]:pl-[24px] max-[1001px]:py-[24px] py-[80px] flex flex-col gap-0"
+        data-accordion-item data-accordion-trigger>
+        <div class="flex justify-between min-[1001px]:items-end">
+          <div class="flex flex-col w-full gap-[10px]">
+            <p
+              class="max-[1440px]:text-[40px] text-[90px] leading-[100%] max-[1001px]:text-[24px] max-[1001px]:font-medium">
+              до 40%</p>
+            <p class="min-[1001px]:hidden leading-[100%] text-[14px]">
+              Повышение стоимости актива
+              <br />
+              в ходе строительства
+            </p>
           </div>
-          <p class="A_BodyText U_MobileText">Рост стоимости актива за&nbsp;время строительства (в&nbsp;среднем 12 месяцев) может достигать&nbsp;40%</p>
+          <div class="flex gap-[32px]">
+            <p class="max-[1001px]:hidden leading-[100%] text-right min-[1440px]:pb-[12px] text-[14px]">
+              Повышение стоимости
+              <br />
+              актива в ходе строительства
+            </p>
+            <div class="w-[22px] h-[22px] relative">
+              <svg class="center" data-accordion-icon xmlns="http://www.w3.org/2000/svg" width="12" height="5"
+                viewBox="0 0 12 5" fill="none">
+                <path d="M12 1.11059L6.44641 5H5.55359L0 1.11059L0.892812 0L5.9995 3.57668L11.1072 0L12 1.11059Z"
+                  fill="#181818" />
+              </svg>
+            </div>
+          </div>
         </div>
+        <p data-accordion-content class="max-[1001px]:text-[14px]">
+          Капитализация начинается ещё на этапе строительства. Дефицит качественного предложения и рост стоимости после
+          ввода создают дополнительную
+          доходность. Рост стоимости актива за время строительства (в среднем 12 месяцев) может достигать 40%.
+        </p>
       </div>
     </div>
-    <div class="W_Section" style="border-top: 0; border-bottom: 1px solid rgba(24, 24, 24, 0.08235)">
-      <div class="W_SectionColumn U_Title">
-        <h2 class="A_SectionTitle2">ИНВЕСТИЦИОННЫЙ ПОТЕНЦИАЛ ПОМЕЩЕНИЙ лайт индастриал</h2>
-        <a class="A_Button3 U_Secondary U_Scroll" href="#LeadForm" onclick="_txq.push(['track', 'request_payment_investor'])">
-          Запросить расчет
-          <img class="Q_Icon U_Invert" src="https://optim.tildacdn.com/tild3139-6330-4438-b430-333664623766/-/resize/290x/-/format/webp/BtnIcon.png" alt="" />
-        </a>
-      </div>
-      <div class="W_SectionColumn">
-        <div class="M_SectionColumnRow">
-          <div class="W_StatsRow">
-            <p class="A_AccentText">7 лет</p>
-          </div>
-          <p class="A_BodyText U_Right">
-            Окупаемость
-            <br />
-            инвестиций
-          </p>
-        </div>
-        <div class="M_SectionColumnRow">
-          <div class="W_StatsRow">
-            <p class="A_AccentSubtext">до</p>
-            <p class="A_AccentText">15%</p>
-          </div>
-          <p class="A_BodyText U_Right">
-            Доходность
-            <br />
-            от арендного бизнеса
-          </p>
-        </div>
-        <div class="M_SectionColumnRow U_LastItem">
-          <div class="W_StatsRow">
-            <p class="A_AccentSubtext">до</p>
-            <p class="A_AccentText">40%</p>
-          </div>
-          <p class="A_BodyText U_Right">
-            Повышение стоимости
-            <br />
-            актива в ходе строительства
-          </p>
-        </div>
-      </div>
-    </div>
+  </div>
+</section>
+
+
     <div class="SO_Main">
       <div class="O_Distinctives" id="Characters">
         <h2 class="A_SectionTitle">Техническая спецификация зданий</h2>

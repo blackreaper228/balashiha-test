@@ -1,11 +1,11 @@
 import './style.css';
-import './kuvekinoStyle.css';
 
 import './js/adminka_lotov.js';
 import './js/adminka.js';
 import './js/history.js';
 import './js/gallery.js';
 import './js/map.js';
+import './js/accordeon.js';
 
 // основные js-скрипты
 

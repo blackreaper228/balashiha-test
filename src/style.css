@@ -1,30 +1,5 @@
 @import 'tailwindcss';
 
-/* шрифты */
-@font-face {
-  font-family: TT Firs Neue;
-  src: url(https://static.tildacdn.com/tild3761-6331-4234-b039-346630363437/TTFirsNeue-Regular.woff) format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: TT Firs Neue;
-  src: url(https://static.tildacdn.com/tild3038-3936-4734-a664-643863393164/TTFirsNeue-Medium.woff) format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-/* основной CSS */
-h1,
-h2 {
-  all: unset;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: var(--font-family-base);
-}
-
 :root {
   --text-color: #181818 !important;
   --white-color: white !important;
@@ -94,6 +69,41 @@ h2 {
   --line-height-base: 1.5;
 }
 
+:root {
+  --black: #000000;
+  --pikBlack: #181818;
+  --white: #ffffff;
+
+  --lightGrey: #f7f7f7;
+  --grey: #888888;
+
+  /* stroke */
+  --stroke-light: #dddddd;
+  --stroke-dark: #3a3a3a;
+
+  /* park */
+  --senkino-color: #9ca8af;
+  --balashiha-color: #4f98a3;
+  --kuvekino-color: #bdb7aa;
+  --sokolovo-color: #a65b61;
+  --tokarevo-color: #8a7f8e;
+  --butovo-color: #949e8c;
+
+  /* переменные Матвея */
+  --color-primary: #000;
+  --secondary-light: #f7f7f7;
+
+  --parametr-ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* основной CSS */
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family-base);
+}
+
+
+
 body {
   position: relative;
   width: 100%;
@@ -111,6 +121,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* шрифты */
+@font-face {
+  font-family: TT Firs Neue;
+  src: url(https://static.tildacdn.com/tild3761-6331-4234-b039-346630363437/TTFirsNeue-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TT Firs Neue;
+  src: url(https://static.tildacdn.com/tild3038-3936-4734-a664-643863393164/TTFirsNeue-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 
 .t_width {
@@ -991,7 +1016,7 @@ a {
   line-height: var(--section-title-line-height);
   text-transform: var(--section-title-transform);
   color: var(--text-color) !important;
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 
@@ -2792,8 +2817,6 @@ th,
 td,
 video {
   margin: 0;
-  padding: 0;
-  border: 0;
 }
 
 .U_Invert {
