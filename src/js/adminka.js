@@ -38,7 +38,7 @@
     unlock: unlockHistoryModalBodyScroll,
   };
 
-  const SHEET_ID = '1CSeA_83ijKQOHEIa1b3w_3T0_llMXneEY4QzymspwsE';
+  const SHEET_ID = '1Z7SCg_nvScI584Jx2W8_8o6Tvgxf9R2CE4JPGW7FY0M';
 
   // URL для листа "History" - используем правильный gid=151892420
   const HISTORY_CSV_URLS = [
